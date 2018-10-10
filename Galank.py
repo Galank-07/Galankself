@@ -10,7 +10,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+cl = LineClient(authToken='Token')#Akun utama
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -30,6 +30,61 @@ kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
+kd = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kd.log("Auth Token : " + str(kd.authToken))
+channel = LineChannel(kd)
+kd.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+ke = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+ke.log("Auth Token : " + str(ke.authToken))
+channel = LineChannel(ke)
+ke.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kf = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kf.log("Auth Token : " + str(kf.authToken))
+channel = LineChannel(kf)
+kf.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kg = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kg.log("Auth Token : " + str(kg.authToken))
+channel = LineChannel(kg)
+kg.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kh = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kh.log("Auth Token : " + str(kh.authToken))
+channel = LineChannel(kh)
+kh.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kj = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kj.log("Auth Token : " + str(kj.authToken))
+channel = LineChannel(kj)
+kj.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kl = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kl.log("Auth Token : " + str(kl.authToken))
+channel = LineChannel(kl)
+kl.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+km = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+km.log("Auth Token : " + str(km.authToken))
+channel = LineChannel(km)
+km.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kn = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kn.log("Auth Token : " + str(kn.authToken))
+channel = LineChannel(kn)
+kn.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+ko = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+ko.log("Auth Token : " + str(ko.authToken))
+channel = LineChannel(ko)
+ko.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kp = LineClient(authToken='EpsvNIiVpkL8l6SShov9.Z5FOM+X3LdX9eCuSNeAYUq.xlYQFovZSUWaKWfmuPG30+10zqg9T0l98u/63m4eKI4=')
+kp.log("Auth Token : " + str(kp.authToken))
+channel = LineChannel(kp)
+kp.log("Channel Access Token : " + str(channel.channelAccessToken))
+
 sw = LineClient(authToken='Epbbbm43qm4lq6iizgoa.fdZ3mfXjEHiMPpSnvvUW/G.HxMlJyeqNfK8h1YN1mHedM7HkbkTTEIgkhNscB41bsU=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
@@ -45,10 +100,21 @@ mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
+Dmid = kd.getProfile().mid
+Emid = kc.getProfile().mid
+Fmid = kc.getProfile().mid
+Gmid = kc.getProfile().mid
+Hmid = kc.getProfile().mid
+Jmid = kc.getProfile().mid
+Lmid = kc.getProfile().mid
+Mmid = kc.getProfile().mid
+Nmid = kc.getProfile().mid
+Omid = kc.getProfile().mid
+Pmid = kc.getProfile().mid
 Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc]
-ABC = [ki,kk,kc]
-Bots = [mid,Amid,Bmid,Cmid,Zmid]
+KAC = [cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp]
+ABC = [ki,kk,kckd,ke,kf,kg,kh,kj,kl,km,kn,ko,kp]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Zmid]
 Saints = admin + staff
 
 protectqr = []
@@ -61,6 +127,18 @@ welcome = []
 responsename1 = ki.getProfile().displayName
 responsename2 = kk.getProfile().displayName
 responsename3 = kc.getProfile().displayName
+responsename4 = kc.getProfile().displayName
+responsename5 = kd.getProfile().displayName
+responsename6 = ke.getProfile().displayName
+responsename7 = kf.getProfile().displayName
+responsename8 = kg.getProfile().displayName
+responsename9 = kh.getProfile().displayName
+responsename10 = kj.getProfile().displayName
+responsename11 = kl.getProfile().displayName
+responsename12 = km.getProfile().displayName
+responsename13 = kn.getProfile().displayName
+responsename14 = ko.getProfile().displayName
+responsename15 = kp.getProfile().displayName
 
 settings = {
     "Picture":False,
@@ -121,11 +199,11 @@ wait = {
     "welcomeOn":False,
     "sticker":False,
     "selfbot":True,
-    "mention":"Tuh maling sempak ngintip -_-",
-    "Respontag":"Pekookk... tag mulu -_-",
+    "mention":"Kampret maling sempak ngintip 😕",
+    "Respontag":"Catat ini hari tag gue,besok minta di perkos,Yakin 😂",
     "welcome":"Selamat datang & semoga croott",
-    "comment":"Like like & like by SAINTS BOT",
-    "message":"Terimakasih sudah add saya 😃\n☆| SAINTS BOT |☆\n\nOpen Order:\n🔰 1 Sb + 3 assist\n🔰 1 Sb + 5 assist\n\nMinat?\nChat aja...",
+    "comment":"Like like & like by AllTeamBot",
+    "message":"Terimakasih sudah add saya 😃\n『✍͡➴͜Ĝα₤αηĸ͜͡✫』\n\nMy Instagram\nhttps://instagram.com/galank23_\n\nMy IdLine\nline.me/ti/p/~fuck.you__\nNo kepo bangsat",
     }
 
 read = {
