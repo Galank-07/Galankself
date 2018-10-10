@@ -25,13 +25,13 @@ class LineServer(object):
         'LINE_MUSIC': '1381425814'
     }
 
-    USER_AGENT  = 'Line/5.5.1.1.587'
-    APP_TYPE    = ApplicationType.DESKTOPWIN
-    APP_NAME    = "DESKTOPWIN\t5.5.1.1587\tWINDOWS_NT\t6.3"
+    USER_AGENT  = 'Line/2.1.5'
+    APP_TYPE    = ApplicationType.CHROMEOS
+    APP_NAME    = "CHROMEOS 2.1.5 NADYA-TJ x64"
     PHONE_TYPE  = ApplicationType.IOS
     PHONE_NAME  = 'IOS\t7.14.0\tiPhone OS\t10.12.0'
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = 'PeKI-BOT'
+    SYSTEM_NAME = 'GALANKBOT'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
 
